@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map</title>
+	<link rel="stylesheet" type="text/css" href="css/map.css" />
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="mapa">
+</div>
+<div class="kantoni">
+	<ul>
+		<li>TK</li>
+		<li>SK</li>
+		<li>ZDK</li>
+		<li>USK</li>
+		<li>HNK</li>
+		<li>SBK</li>
+		<li>PK</li>
+		<li>BPK</li>
+		<li>ZHK</li>
+		<li>K10</li>
+		<li><form id="loka" action=""><input type="text" id="lok" value=''><input type="submit" value="Submit"/></form></li>
+	</ul>
+</div>
+<script>
+	var genLat=44.5422079, genLon=18.640659;
+	var hardCodedLocations = [{
+		id:'TK',
+		lat: 44.5422079,
+		lon: 18.640659
+	},{
+		id:'SK',
+		lat: 43.8937019,
+		lon: 18.3129513
+	},
+	{
+		id:'ZDK',
+		lat: 44.202427,
+		lon: 17.8629426
+	},
+	{
+		id:'USK',
+		lat:44.964859,
+		lon: 15.9173356
+	},
+	{
+		id:'HNK',
+		lat: 43.3395522,
+		lon: 17.786221
+	},
+	{
+		id:'SBK',
+		lat: 44.2272393,
+		lon: 17.6280782
+	},
+	{
+		id:'PK',
+		lat: 45.039299,
+		lon: 18.1478811
+	},
+	{
+		id:'BPK',
+		lat: 43.638886,
+		lon: 18.6272396
+	},
+	{
+		id:'ZHK',
+		lat:43.3821089,
+		lon: 17.5704001
+	},
+	{
+		id:'K10',
+		lat:44.0478145,
+		lon:16.8277844
+	}
+	];
+	$('ul li').click(function(){
+		var kan = $(this).text();
+		$.each(hardCodedLocations, function(i, item){
+			if(item.id == kan){
+				genMap(item.lat, item.lon, 10);
+			}
+		});
+	});
+
+	$('#loka').submit(function(event){
+		var loc = $('#lok').val();
+		alert(loc);
+		$.get('https://maps.googleapis.com/maps/api/geocode/json?address=' + loc + '&key=AIzaSyAh3obNazGgJ0scp-fUeik2FcsrJFbNQ3k', function(data){
+			genMap(data.results[0].geometry.location.lat, data.results[0].geometry.location.lng,15);
+			console.log(data.results[0].formatted_address);
+		});
+		event.preventDefault();
+	});
+      function initMap() {
+        var uluru = {lat: 44.5403371, lng: 18.018471};
+        genMap(uluru.lat, uluru.lng,10);
+        //var marker = new google.maps.Marker({
+          //position: uluru,
+          //map: map
+        //});
+      }
+
+      function genMap(lati, long, zm){
+      	var map = new google.maps.Map(document.getElementById('mapa'),{
+          zoom: zm,
+          center: {lat: lati, lng:long}
+        });
+      }
+    </script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh3obNazGgJ0scp-fUeik2FcsrJFbNQ3k&callback=initMap">
+    </script>
+</body>
+</html>
