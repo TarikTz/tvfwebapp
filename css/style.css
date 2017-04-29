@@ -1,0 +1,12 @@
+.home-one {
+  background-image: url("https://aos.iacpublishinglabs.com/question/aq/1400px-788px/forest-fire-put-out_d518a7c5a926004e.jpg?domain=cx.aos.ask.com");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0px;
+}
+
+.home-one h1 {
+  text-align: center;
+}
