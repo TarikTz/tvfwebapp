@@ -1,0 +1,207 @@
+var data = { "count": 10785236,
+ "photos": [
+{"photo_id": 1, "photo_title": "Mostar Summer Fest", "longitude": 17.800973699999986, "latitude": 43.3085119, "contentString": "<center><p><a href='http://festival.ba/mostar-summer-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/msummer_fest.png' width='90' height='90' />Mostar Summer Fest</p></a></center>"}
+,
+{"photo_id": 2, "photo_title": "Sarajevo Film Festival", "longitude": 18.424732093848434, "latitude": 43.85796605714499, "contentString": "<center><p><a href='http://festival.ba/sarajevo-film-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/sff_fest.png' width='90' height='90' />Sarajevo Film Festival</p></a></center>"}
+,
+{"photo_id": 3, "photo_title": "Sarajevo Chamber Music Festival i Institut", "longitude": 18.426338100000066, "latitude": 43.8609076, "contentString": "<center><p><a href='http://festival.ba/sarajevo-chamber-music-festival-i-institut/'><img src='http://festival.ba/wp-content/uploads/2016/01/scm_fest.png' width='90' height='90' />Sarajevo Chamber Music Festival i Institut</p></a></center>"}
+,
+{"photo_id": 4, "photo_title": "Sarajevska zima", "longitude": 18.413010799999938, "latitude": 43.85902979999999, "contentString": "<center><p><a href='http://festival.ba/sarajevska-zima/'><img src='http://festival.ba/wp-content/uploads/2016/01/szima_fest.png' width='90' height='90' />Sarajevska zima</p></a></center>"}
+,
+{"photo_id": 5, "photo_title": "Streets Arts Festival", "longitude": 17.80775779999999, "latitude": 43.34377480000001, "contentString": "<center><p><a href='http://festival.ba/streets-arts-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/sam_fest.png' width='90' height='90' />Streets Arts Festival</p></a></center>"}
+,
+{"photo_id": 6, "photo_title": "Tuzla Film Festival", "longitude": 18.67516980000005, "latitude": 44.5395062, "contentString": "<center><p><a href='http://festival.ba/tuzla-film-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/tff_fest.png' width='90' height='90' />Tuzla Film Festival</p></a></center>"}
+,
+{"photo_id": 7, "photo_title": "Neum Animated Film Festival", "longitude": 17.61857269999996, "latitude": 42.9230437, "contentString": "<center><p><a href='http://festival.ba/neum-animated-film-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/naff_fest.png' width='90' height='90' />Neum Animated Film Festival</p></a></center>"}
+,
+{"photo_id": 8, "photo_title": "Mostar Blues & Rock Festival", "longitude": 17.81435399999998, "latitude": 43.3449847, "contentString": "<center><p><a href='http://festival.ba/mostar-blues-rock-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/mbrf_fest.png' width='90' height='90' />Mostar Blues & Rock Festival</p></a></center>"}
+,
+{"photo_id": 9, "photo_title": "PitchWise festival", "longitude": 18.415875415344203, "latitude": 43.86317765568233, "contentString": "<center><p><a href='http://festival.ba/pitchwise-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/pichwise_fest.png' width='90' height='90' />PitchWise Festival</p></a></center>"}
+,
+{"photo_id": 10, "photo_title": "Pravo Ljudski", "longitude": 18.424563300000045, "latitude": 43.8568089, "contentString": "<center><p><a href='http://festival.ba/pravo-ljudski/'><img src='http://festival.ba/wp-content/uploads/2016/01/pljf_fest.png' width='90' height='90' />Pravo Ljudski</p></a></center>"}
+,
+{"photo_id": 11, "photo_title": "Sarajevo Beer Festival", "longitude": 18.40949180000007, "latitude": 43.871845, "contentString": "<center><p><a href='http://festival.ba/sarajevo-beer-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/sbeer_fest.png' width='90' height='90' />Sarajevo Beer Festival</p></a></center>"}
+,
+{"photo_id": 12, "photo_title": "Merlinka", "longitude": 18.415832499999965, "latitude": 43.86334009999999, "contentString": "<center><p><a href='http://festival.ba/merlinka/'><img src='http://festival.ba/wp-content/uploads/2016/01/merlinka_fest.png' width='90' height='90' />Merlinka - Internacionalni festival queer filma</p></a></center>"}
+,
+{"photo_id": 13, "photo_title": "Internacionalni teatarski festival MESS", "longitude": 18.420839, "latitude": 43.8584781, "contentString": "<center><p><a href='http://festival.ba/mess/'><img src='http://festival.ba/wp-content/uploads/2016/01/mess_fest.png' width='90' height='90' />Internacionalni teatarski festival MESS</p></a></center>"}
+,
+{"photo_id": 14, "photo_title": "Kid’s festival", "longitude": 18.43447059999994, "latitude": 43.8603652, "contentString": "<center><p><a href='http://festival.ba/kids-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/kids_fest.png' width='90' height='90' />Kid’s festival</p></a></center>"}
+,
+{"photo_id": 15, "photo_title": "Kratkofil Plus", "longitude": 17.184082200000034, "latitude": 44.7810686, "contentString": "<center><p><a href='http://festival.ba/kratkofil-plus/'><img src='http://festival.ba/wp-content/uploads/2016/01/kratkofil_fest.png' width='90' height='90' />Kratkofil Plus</p></a></center>"}
+,
+{"photo_id": 16, "photo_title": "Mediteran Film Festival", "longitude": 17.594084100000032, "latitude": 43.3831912, "contentString": "<center><p><a href='http://festival.ba/mediteran-film-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/mff_fest.png' width='90' height='90' />Mediteran Film Festival</p></a></center>"}
+,
+{"photo_id": 17, "photo_title": "BANJALUKANIMA", "longitude": 17.192004725131255, "latitude": 44.76891538797284, "contentString": "<center><p><a href='http://festival.ba/banjalukanima/'><img src='http://festival.ba/wp-content/uploads/2016/01/banjalukanima_fest.png' width='90' height='90' />BANJALUKANIMA</p></a></center>"}
+,
+{"photo_id": 18, "photo_title": "Jazz fest", "longitude": 18.422020599999996, "latitude": 43.8571113, "contentString": "<center><p><a href='http://festival.ba/jazz-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/jazz_fest.png' width='90' height='90' />Jazz Fest</p></a></center>"}
+,
+{"photo_id": 19, "photo_title": "interbifep", "longitude": 18.68752947434382, "latitude": 44.53571321833678, "contentString": "<center><p><a href='http://festival.ba/interbifep/'><img src='http://festival.ba/wp-content/uploads/2016/01/interbifep_fest.png' width='90' height='90' />INTERBIFEP</p></a></center>"}
+,
+{"photo_id": 20, "photo_title": "FUU", "longitude": 18.433419211978162, "latitude": 43.85915470085558, "contentString": "<center><p><a href='http://festival.ba/festival-ulicne-umjetnosti/'><img src='http://festival.ba/wp-content/uploads/2016/01/fuu_fest.png' width='90' height='90' />FESTIVAL ULIČNE UMJETNOSTI</p></a></center>"}
+,
+{"photo_id": 21, "photo_title": "Fresh Wave", "longitude": 17.19037948888547, "latitude": 44.76688050028936, "contentString": "<center><p><a href='http://festival.ba/fresh-wave-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/freshwave_fest.png' width='90' height='90' />Fresh Wave</p></a></center>"}
+,
+{"photo_id": 22, "photo_title": "Demofest", "longitude": 17.19083009999997, "latitude": 44.7666596, "contentString": "<center><p><a href='http://festival.ba/demofest/'><img src='http://festival.ba/wp-content/uploads/2016/01/demo_fest.png' width='90' height='90' />Demofest</p></a></center>"}
+,
+{"photo_id": 23, "photo_title": "BIJENALE MINIJATURE", "longitude": 18.65433979748377, "latitude": 44.533327981160184, "contentString": "<center><p><a href='http://festival.ba/bijenale-minijature/'><img src='http://festival.ba/wp-content/uploads/2016/01/bijenale_fest.png' width='90' height='90' />BIJENALE MINIJATURE</p></a></center>"}
+,
+{"photo_id": 24, "photo_title": "Baščaršijske noći", "longitude": 18.421970699999974, "latitude": 43.8575928, "contentString": "<center><p><a href='http://festival.ba/bascarsijske-noci/'><img src='http://festival.ba/wp-content/uploads/2016/01/bascarsijskenoci_fest.png' width='90' height='90' />Baščaršijske noći</p></a></center>"}
+,
+{"photo_id": 25, "photo_title": "Festival BH drame", "longitude": 17.905807800000048, "latitude": 44.2018068, "contentString": "<center><p><a href='http://festival.ba/festival-bh-drame/'><img src='http://festival.ba/wp-content/uploads/2016/01/bnp_fest.png' width='90' height='90' />Festival BH drame</p></a></center>"}
+,
+{"photo_id": 26, "photo_title": "BUARF", "longitude": 18.654763586508125, "latitude": 44.53354594794348, "contentString": "<center><p><a href='http://festival.ba/buarf/'><img src='http://festival.ba/wp-content/uploads/2016/01/buarf_fest.png' width='90' height='90' />BALKAN UNPLUGGED ACOUSTIC ROCK FEST</p></a></center>"}
+,
+{"photo_id": 27, "photo_title": "BH Beer Fest Bijeljina", "longitude": 19.221273031182818, "latitude": 44.76011600033397, "contentString": "<center><p><a href='http://festival.ba/bh-beer-fest-bijeljina/'><img src='http://festival.ba/wp-content/uploads/2016/01/beerbijeljina_fest.png' width='90' height='90' />BH Beer Fest Bijeljina</p></a></center>"}
+,
+{"photo_id": 28, "photo_title": "Beton Fest", "longitude": 18.415824499999985, "latitude": 43.8634546, "contentString": "<center><p><a href='http://festival.ba/beton-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/beton_fest.png' width='90' height='90' />3D ulični festival Beton Fest</p></a></center>"}
+,
+{"photo_id": 29, "photo_title": "Balet Fest", "longitude": 18.417266199999972, "latitude": 43.8565626, "contentString": "<center><p><a href='http://festival.ba/balet-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/balet_fest.png' width='90' height='90' />Balet Fest</p></a></center>"}
+,
+{"photo_id": 30, "photo_title": "Kaleidoskop festival", "longitude": 18.674734802655053, "latitude": 44.54155233067948, "contentString": "<center><p><a href='http://festival.ba/festival-kaleidoskop/'><img src='http://festival.ba/wp-content/uploads/2016/01/kaleidoskop_fest.png' width='90' height='90' />Kaleidoskop festival</p></a></center>"}
+,
+{"photo_id": 31, "photo_title": "Festival savremene umjetnosti arTz", "longitude": 18.68100430000004, "latitude": 44.53695829999999, "contentString": "<center><p><a href='http://festival.ba/festival-artz/'><img src='http://festival.ba/wp-content/uploads/2016/01/artz_fest.png' width='90' height='90' />Festival  \"arTz\"</p></a></center>"}
+,
+{"photo_id": 32, "photo_title": "Dimension festival", "longitude": 13.79796639999995, "latitude": 44.8920278, "contentString": "<center><p><a href='http://festival.ba/dimensions-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/dimensions_fest.png' width='90' height='90' />Dimension festival</p></a></center>"}
+,
+{"photo_id": 33, "photo_title": "EXIT", "longitude": 19.863366600000063, "latitude": 45.252901, "contentString": "<center><p><a href='http://festival.ba/exit/'><img src='http://festival.ba/wp-content/uploads/2016/01/exit_fest.png' width='90' height='90' />EXIT</p></a></center>"}
+,
+{"photo_id": 34, "photo_title": "Lovefest", "longitude": 20.893545328002915, "latitude": 43.61840384145315, "contentString": "<center><p><a href='http://festival.ba/lovefest/'><img src='http://festival.ba/wp-content/uploads/2016/01/love_fest.png' width='90' height='90' />Lovefest</p></a></center>"}
+,
+{"photo_id": 35, "photo_title": "Outlook Festival", "longitude": 13.798148790212963, "latitude": 44.89218741480741, "contentString": "<center><p><a href='http://festival.ba/outlook-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/outlok_fest.png' width='90' height='90' />Outlook Festival</p></a></center>"}
+,
+{"photo_id": 36, "photo_title": "Ultra Music Festival", "longitude": 16.431856700000026, "latitude": 43.5196129, "contentString": "<center><p><a href='http://festival.ba/ultra-music-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/ultra_fest.png' width='90' height='90' />Ultra Music Festival</p></a></center>"}
+,
+{"photo_id": 37, "photo_title": "Belgrade Beer Fest", "longitude": 20.4269463, "latitude": 44.821742, "contentString": "<center><p><a href='http://festival.ba/belgrade-beer-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/bbf.jpg' width='90' height='90' />Belgrade Beer Fest</p></a></center>"}
+,
+{"photo_id": 38, "ikona" : "http://www.uow.edu.au/content/groups/webasset/@web/documents/siteelement/img_student_library_icon.png", "photo_title": "Sonus Festival", "longitude": 14.9124642, "latitude": 44.5403905, "contentString": "<center><p><a href='http://festival.ba/sonus-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/sonus_fest.png' width='90' height='90' />Sonus Festival</p></a></center>"}
+,
+{"photo_id": 39, "photo_title": "Zenicko proljece", "longitude": 17.904979, "latitude": 44.201160, "contentString": "<center><p><a href='http://festival.ba/zenicko-proljece/'><img src='http://festival.ba/wp-content/uploads/2016/02/zenicko_proljece_fest.jpg' width='90' height='90' />Zeničko proljeće</p></a></center>"}
+,
+{"photo_id": 40, "photo_title": "Sea", "longitude": 18.803556, "latitude": 42.283603, "contentString": "<center><p><a href='http://festival.ba/sea-dance/'><img src='http://festival.ba/wp-content/uploads/2016/02/sea_dance_fest.png' width='90' height='90' />SEA DANCE</p></a></center>"}
+,
+{"photo_id": 41, "photo_title": "OK FEST", "longitude": 18.6888278, "latitude": 43.3468091, "contentString": "<center><p><a href='http://festival.ba/ok-fest/'><img src='http://festival.ba/wp-content/uploads/2016/01/OK_fest.png' width='90' height='90' />OK Fest</p></a></center>"}
+,
+{"photo_id": 42, "photo_title": "FESTIVAL BOSANSKOHERCEGOVACKIH VINA I HRANE", "longitude": 18.6586442, "latitude": 44.5347936, "contentString": "<center><p><a href='http://festival.ba/festival-bosanskohercegovackih-vina-i-hrane/'><img src='http://festival.ba/wp-content/uploads/2016/01/vino_i_hrana_fest.png' width='90' height='90' />FESTIVAL BOSANSKOHERCEGOVAČKIH VINA I HRANE</p></a></center>"}
+,
+{"photo_id": 43, "photo_title": "Javorwood Festova;", "longitude": 18.3077073, "latitude": 43.7007876, "contentString": "<center><p><a href='http://festival.ba/javorwood-festival/'><img src='http://festival.ba/wp-content/uploads/2016/01/javorwood_fest.png' width='90' height='90' />Javorwood Festival</p></a></center>"}
+,
+
+
+]}
+
+var test = { "count": 10785236,
+ "photos": [
+{"photo_id": 1, "photo_title": "Pozorište mladih Tuzle", "longitude": 18.67030982659753, "latitude": 44.54316107545989, "contentString": "<center><p><h4>Pozorište mladih Tuzle</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 2, "photo_title": "Narodno pozorište Tuzla", "longitude": 18.677204399999937, "latitude": 44.536792, "contentString": "<center><p><h4>Narodno pozorište Tuzla</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 3, "photo_title": "Teatar Kabare Tuzla", "longitude": 18.68820549999998, "latitude": 44.53152739999999, "contentString": "<center><p><h4>Teatar Kabare Tuzla</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 4, "photo_title": "Bosansko narodno pozoriste Zenica", "longitude": 17.905807800000048, "latitude": 44.2018068, "contentString": "<center><p><h4>Bosansko narodno pozorište Zenica</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 5, "photo_title": "Narodno pozoriste Sarajevo", "longitude": 18.420687300000054, "latitude": 43.8571605, "contentString": "<center><p><h4>Narodno pozoriste Sarajevo</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 6, "photo_title": "Kamerni teatar 55", "longitude": 18.421320299999934, "latitude": 43.8584979, "contentString": "<center><p><h4>Kamerni teatar 55</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 7, "photo_title": "Sarajevski ratni teatar", "longitude": 18.415242499999977, "latitude": 43.8635629, "contentString": "<center><p><h4>Sarajevski ratni teatar</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 8, "photo_title": "Pozoriste mladih Sarajevo", "longitude": 18.420775700000036, "latitude": 43.858027, "contentString": "<center><p><h4>Pozoriste mladih Sarajevo</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 9, "photo_title": "Otvorena scena Obala", "longitude": 18.422507300000007, "latitude": 43.85681497, "contentString": "<center><p><h4>Otvorena scena Obala</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 10, "photo_title": "Narodno pozoriste Mostar", "longitude": 17.757040, "latitude": 43.327831, "contentString": "<center><p><h4>Narodno pozoriste Mostar</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 11, "photo_title": "Narodno pozorište Republike Srpske", "longitude": 17.19350399999996, "latitude": 44.7741769, "contentString": "<center><p><h4>Narodno pozorište Republike Srpske</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 12, "photo_title": "Gradsko pozorište Jazavac", "longitude": 17.19106080000006, "latitude": 44.7642391, "contentString": "<center><p><h4>Gradsko pozorište Jazavac</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 13, "photo_title": "Dječije pozorište Republike Srpske", "longitude": 17.19151940000006, "latitude": 44.7687449, "contentString": "<center><p><h4>Dječije pozorište Republike Srpske</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 14, "photo_title": "DIS Teatar", "longitude": 17.191001578959686, "latitude": 44.768595474411974, "contentString": "<center><p><h4>DIS Teatar</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 15, "photo_title": "Pozoriste lutaka Mostar", "longitude": 17.816742377909804, "latitude": 43.340836636259986, "contentString": "<center><p><h4>Pozoriste lutaka Mostar</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 16, "photo_title": "Mostarski teatar mladih", "longitude": 17.81166429999996, "latitude": 43.34495070000001, "contentString": "<center><p><h4>Mostarski teatar mladih</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/pozoriste.png"}
+,
+{"photo_id": 17, "photo_title": "Muzej Republike Srpske", "longitude": 17.19176349999998, "latitude": 44.76933140000001, "contentString": "<center><p><h4>Muzej Republike Srpske</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 18, "photo_title": "Muzej Savremene umjetnosti", "longitude": 17.189662099999964, "latitude": 44.7722936, "contentString": "<center><p><h4>Muzej Savremene umjetnosti</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 19, "photo_title": "LTG Galerija", "longitude": 17.191472699999963, "latitude": 44.7726458, "contentString": "<center><p><h4>LTG Galerija</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 20, "photo_title": "Muzej grada Zenice", "longitude": 17.911293399999977, "latitude": 44.1999588, "contentString": "<center><p><h4>Muzej grada Zenice</h4></p></a></center>", "ikona" : "http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 21, "photo_title": "Art Klub Prostor ", "longitude": 17.20786217434386, "latitude": 44.770732867337905, "contentString": "<center><p><h4>Art Klub Prostor</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 22, "photo_title": "Dom književnosti", "longitude": 18.676433802516158, "latitude": 44.53833208494363, "contentString": "<center><p><h4>Dom književnosti</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/kulturna.png"}
+,
+{"photo_id": 23, "photo_title": "Arheološki park", "longitude": 18.680416000000037, "latitude": 44.53931489999999, "contentString": "<center><p><h4>Arheološki park</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 24, "photo_title": "Geološki muzej", "longitude": 18.682733428588904, "latitude": 44.53988078896563, "contentString": "<center><p><h4>Geološki muzej</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 25, "photo_title": "Atelje Ismet Mujezinović", "longitude": 18.68100430000004, "latitude": 44.53695829999999, "contentString": "<center><p><h4>Atelje Ismet Mujezinović</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/kulturna.png"}
+,
+{"photo_id": 26, "photo_title": "Galerija Muzej Mandzić", "longitude": 18.663990466934138, "latitude": 44.53945997071211, "contentString": "<center><p><h4>Galerija Muzej Mandzić</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 27, "photo_title": "Međunarodna galerija portreta", "longitude": 18.686794599999985, "latitude": 44.535826, "contentString": "<center><p><h4>Međunarodna galerija portreta</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 28, "photo_title": "Muzej Soli", "longitude": 18.64623397672119, "latitude": 44.53271292507078, "contentString": "<center><p><h4>Muzej Soli</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 29, "photo_title": "Muzej istočne Bosne Tuzla", "longitude": 18.674386751698307, "latitude": 44.54230082858606, "contentString": "<center><p><h4>Muzej istočne Bosne Tuzla</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 30, "photo_title": "Duplex", "longitude": 18.425340000000006, "latitude": 43.8569561, "contentString": "<center><p><h4>Duplex</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 31, "photo_title": "Collegium artisticum", "longitude": 18.41497979999997, "latitude": 43.8548997, "contentString": "<center><p><h4>Collegium artisticum</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 32, "photo_title": "Galerija Mak", "longitude": 18.426727700000015, "latitude": 43.8582078, "contentString": "<center><p><h4>Galerija Mak</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 33, "photo_title": "Galerija \"Roman Petrović\"", "longitude": 18.42084829999999, "latitude": 43.8587281, "contentString": "<center><p><h4>Galerija \"Roman Petrović\"</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 34, "photo_title": "Umjetnička galerija BiH", "longitude": 18.424407599999995, "latitude": 43.8577127, "contentString": "<center><p><h4>Umjetnička galerija BiH</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 35, "photo_title": "Muzej književnosti i pozorišne umjetnosti BiH", "longitude": 18.426706200000012, "latitude": 43.85777460000001, "contentString": "<center><p><h4>Muzej književnosti i pozorišne umjetnosti BiH</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 36, "photo_title": "Muzej Sarajeva", "longitude": 18.428948499999933, "latitude": 43.8579148, "contentString": "<center><p><h4>Muzej Sarajeva</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 37, "photo_title": "Historijski muzej", "longitude": 18.401047500000004, "latitude": 43.8551974, "contentString": "<center><p><h4>Historijski muzej</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 38, "photo_title": "Zemaljski muzej", "longitude": 18.402622599999972, "latitude": 43.8550257, "contentString": "<center><p><h4>Zemaljski muzej</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/muzej.png"}
+,
+{"photo_id": 39, "photo_title": "Galerija Aluminij", "longitude": 17.804059432540953, "latitude": 43.346056157805414, "contentString": "<center><p><h4>Galerija Aluminij</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 40, "photo_title": "Interpretacijski centar", "longitude": 17.81571428598329, "latitude": 43.337218367998844, "contentString": "<center><p><h4>Interpretacijski centar</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 41, "photo_title": "Muzej Starog mosta", "longitude": 17.81513761104509, "latitude": 43.33731005756595, "contentString": "<center><p><h4>Muzej Starog mosta</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 42, "photo_title": "Muzej Hercegovine", "longitude": 17.816258800000014, "latitude": 43.3389207, "contentString": "<center><p><h4>Muzej Hercegovine</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/galerija.png"}
+,
+{"photo_id": 43, "photo_title": "Akademija umjetnosti Univerziteta u Banjoj Luci", "longitude": 17.2130924, "latitude": 44.7752932, "contentString": "<center><p><h4>Akademija umjetnosti Univerziteta u Banjoj Luci</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 44, "photo_title": "Akademija likovnih umjetnosti Mostar", "longitude": 17.5858444, "latitude": 43.3747772, "contentString": "<center><p><h4>Akademija likovnih umjetnosti Mostar</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 45, "photo_title": "Akademija dramskih umjetnosti Univerziteta u Tuzli", "longitude": 18.6868536, "latitude": 44.5328104, "contentString": "<center><p><h4>Akademija dramskih umjetnosti Univerziteta u Tuzli</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 46, "photo_title": "Akademija scenskih umjetnosti Sarajevo", "longitude": 18.4224966, "latitude": 43.8568342, "contentString": "<center><p><h4>Akademija scenskih umjetnosti Sarajevo</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 47, "photo_title": "Akademija likovnih umjetnosti Sarajevo", "longitude": 18.4178433, "latitude": 43.8560459, "contentString": "<center><p><h4>Akademija likovnih umjetnosti Sarajevo</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 48, "photo_title": "Muzička Akademija Univerziteta u Sarajevu", "longitude": 18.4248769, "latitude": 43.8603662, "contentString": "<center><p><h4>Muzička Akademija Univerziteta u Sarajevu</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/akademija.png"}
+,
+{"photo_id": 49, "photo_title": "Nacionalna i univerzitetska biblioteka Bosne i Hercegovine", "longitude": 18.3972229, "latitude": 43.8559388, "contentString": "<center><p><h4>Nacionalna i univerzitetska biblioteka Bosne i Hercegovine</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 50, "photo_title": "Narodna i univerzitetska biblioteka \"Derviš Sušić\" Tuzla", "longitude": 18.6782733, "latitude": 44.5373347, "contentString": "<center><p><h4>Narodna i univerzitetska biblioteka \"Derviš Sušić\" Tuzla</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 51, "photo_title": "Opća biblioteka Zenica", "longitude": 17.9054403, "latitude": 44.2026258, "contentString": "<center><p><h4>Opća biblioteka Zenica</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 52, "photo_title": "Narodna knjižnica Hercegovačko-neretvanske županije Mostar", "longitude": 17.8028566, "latitude": 43.3425723, "contentString": "<center><p><h4>Narodna knjižnica Hercegovačko-neretvanske županije Mostar</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 53, "photo_title": "Kantonalna i univerzitetska biblioteka Bihać", "longitude": 15.8707099, "latitude": 44.8151727, "contentString": "<center><p><h4>Kantonalna i univerzitetska biblioteka Bihać</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 54, "photo_title": "Narodna i univerzitetska biblioteka RS", "longitude": 17.1915167, "latitude": 44.7695227, "contentString": "<center><p><h4>Narodna i univerzitetska biblioteka RS</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/biblioteka.png"}
+,
+{"photo_id": 55, "photo_title": "Univerzitet u Bihaću", "longitude": 15.869236, "latitude": 44.8136505, "contentString": "<center><p><h4>Univerzitet u Bihaću</h4></p></a></center>", "ikona":"http://ata-dev.com/ikona/kulturna.png"}
+,
+
+
+]}
