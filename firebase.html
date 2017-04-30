@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- fonts -->
+  <script src="https://use.fontawesome.com/533be909a0.js"></script>
 
   <!-- Geolocation API
   AIzaSyBII-QXx33l2jXlDSpFjf9OUoeI72oiFjI -->
@@ -47,7 +48,9 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h3>Fire location</h3>
-          <div id="report"></div>
+          <div id="report">
+            <p><i id="warn" class="fa fa-warning"></i><i id="check" class="fa fa-fire"></i></p></p>
+          </div>
 
         </div>
       </div>
@@ -74,6 +77,34 @@
   <!-- <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjX7l9zaR_qzNT--K-E2MulqCbHwHyXS4&libraries=places&callback=initMap">
   </script> -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjX7l9zaR_qzNT--K-E2MulqCbHwHyXS4&libraries=places&callback=initMap">
+  </script>
 
+
+<script>
+
+$(document).ready(function() {
+  // $("#warning").click(function() {
+  //   console.log("test");
+  //   $(this).css('color','#00123f');
+  // });
+
+  $(document).on('click', '#warn', function () {
+     $(this).css('color','#ffef00');
+     $("#check").toggle();
+  });
+
+  $(document).on('click', '#check', function () {
+     $(this).css('color','#0f0');
+     $(this).removeClass("fa-fire");
+     $(this).addClass("fa-check");
+     $("#warn").toggle();
+  });
+});
+
+
+
+</script>
 </body>
 </html>
